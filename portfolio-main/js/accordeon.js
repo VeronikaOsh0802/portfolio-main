@@ -1,10 +1,6 @@
 const accordeon = document.querySelector(".feature-list");
 const accordeonButton = document.querySelectorAll(".feature__link");
 
-console.log(accordeon);
-
-console.log(accordeonButton);
-
 accordeonButton.forEach((btn) => {
   btn.addEventListener("click", () => {
     accordeonButton.forEach((button) => {
